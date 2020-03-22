@@ -84,8 +84,8 @@ header {
 
 .video {
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-item {
