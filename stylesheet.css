@@ -83,15 +83,6 @@ header {
   background-color: #e0ffff;
 }
 
-.container-hotel a {
-  display: inline-block;
-  font-size: 24px;
-  line-height: 75px;
-  margin: 5px;
-  padding-left: 620px;
-  padding-right: 620px;
-}
-
 .video {
   text-align: center;
   padding-top: 10px;
