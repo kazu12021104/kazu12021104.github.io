@@ -41,7 +41,7 @@ header {
   padding-top: 160px;
 }
 
-.copy-container p{
+.copy-container p {
   font-size: 40px;
   color: white;
   text-align: center;
@@ -72,15 +72,35 @@ header {
   height: 250px;
 }
 
-li {
-  list-style: none;
-}
-
-.content li {
+.content p {
   font-size: 24px;
   line-height: 75px;
   margin: 5px;
   text-align: center;
+}
+
+.container-hotel {
+  background-color: #e0ffff;
+}
+
+.container-hotel a {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 75px;
+  margin: 5px;
+  padding-left: 620px;
+  padding-right: 620px;
+}
+
+.video {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-item {
+  height: 700px;
+  background-color: #e0ffff;
 }
 
 .heading li {
@@ -89,8 +109,8 @@ li {
   padding:10px;
 }
 
-.container-access {
-
+.gmap {
+  text-align: center;
 }
 
 .access-background {
