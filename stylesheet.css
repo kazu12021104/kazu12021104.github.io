@@ -14,19 +14,20 @@ body {
 }
 
 header {
-  background-color: skyblue;
+  background-color: gray;
   height: 80px;
-}
-
-.header-left {
+  width: 2000px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
   float: left;
   color: white;
-  font-size: 40px;
+  font-size: 36px;
   padding: 10px 20px;
 }
 
 .copy-container {
-  height: 400px;
+  height: 600px;
   background-image: url(https://www.maholova-minds.com/charm/images/190403_18.jpg);
   background-size: cover;
   opacity: 0.7;
@@ -37,7 +38,7 @@ header {
   font-size: 90px;
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 160px;
 }
 
 .copy-container p{
@@ -55,27 +56,76 @@ header {
 .heading h1 {
   border-bottom: 2px solid gray;
   text-align: center;
-  margin: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px 0;
+  background-color: skyblue;
+  border-radius: 10px;
+  margin-top: 10px
 }
 
 .container {
-  padding: 30px 80px;
   background-color: #e0ffff;
 }
 
 .contents {
-  height: 200px;
+  height: 250px;
 }
 
-.content a {
-  float:left;
-  font-size: 36px;
-  line-height: 140px;
-  border-radius: 20px;
-  width: 30%;
-  background-color: #87cefa;
-  margin: 20px;
+li {
+  list-style: none;
+}
+
+.content li {
+  font-size: 24px;
+  line-height: 75px;
+  margin: 5px;
   text-align: center;
+}
+
+.heading li {
+  font-size: 24px;
+  text-align: center;
+  padding:10px;
+}
+
+.container-access {
+
+}
+
+.access-background {
+  height: 500px;
+  background-image: url(https://www.maholova-minds.com/access/images/map.jpg);
+  background-size: cover;
+}
+
+.access-train h3 {
+  font-size: 24px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px 0;
+  margin-top: 10px
+}
+
+.access-train p {
+  font-size: 24px;
+  text-align: center;
+  padding:10px;
+  font-weight: bold;
+}
+
+.access-train-2 {
+  height: 500px;
+  background-image: url(https://www.maholova-minds.com/access/images/detail_map.jpg);
+  background-size: cover;
+}
+
+.access-google.map p {
+  font-size: 24px;
+  text-align: center;
+  padding:10px;
 }
 
 footer {
