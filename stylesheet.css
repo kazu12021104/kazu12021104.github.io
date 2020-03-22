@@ -116,16 +116,8 @@ li {
   font-weight: bold;
 }
 
-.access-train-2 {
-  height: 500px;
-  background-image: url(https://www.maholova-minds.com/access/images/detail_map.jpg);
-  background-size: cover;
-}
-
-.access-google.map p {
-  font-size: 24px;
+.access-gmap {
   text-align: center;
-  padding:10px;
 }
 
 footer {
