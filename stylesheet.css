@@ -69,18 +69,17 @@ header {
 }
 
 .contents {
-  height: 250px;
-}
-
-.content p {
-  font-size: 24px;
-  line-height: 75px;
-  margin: 5px;
-  text-align: center;
+  height: 300px;
 }
 
 .container-hotel {
   background-color: #e0ffff;
+}
+
+.content li {
+  font-size: 36px;
+  text-align: center;
+  padding:20px;
 }
 
 .video {
